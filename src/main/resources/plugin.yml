@@ -1,0 +1,8 @@
+name: HidePlayerJoinQuit
+version: ${project.version}
+main: net.oskarsmc.ddns.hideplayerjoinquit.HidePlayerJoinQuit
+api-version: 1.13
+prefix: HidePlayerJoinQuit
+authors: [OskarZyg]
+description: Hide player join/quit messages
+website: http://oskarsmc.ddns.net
