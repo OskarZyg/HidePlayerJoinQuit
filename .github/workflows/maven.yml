@@ -22,5 +22,5 @@ jobs:
       - uses: actions/upload-artifact@v2 # Upload
         with:
           name: HidePlayerJoinQuit
-          path: staging/HidePlayerJoinQuit-1.0-Final.jar
-          retention-days: 10
+          path: staging/*
+          retention-days: 10 # Delete artifacts after 10 days
