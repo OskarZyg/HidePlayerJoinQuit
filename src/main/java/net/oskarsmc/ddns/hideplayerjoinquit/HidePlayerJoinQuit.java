@@ -11,18 +11,7 @@ public final class HidePlayerJoinQuit extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        getLogger().info("======== HidePlayerJoinQuit ========");
-        getLogger().info("Author: OskarZyg");
-        getLogger().info("Website: http://konzen.ddns.net");
-        getLogger().info("Loading...");
-        try {
-            Bukkit.getPluginManager().registerEvents(this, this);
-            getLogger().info("Loading complete!");
-        } catch (Exception e) {
-            getLogger().severe("Error while loading. Printing stack trace!");
-            e.printStackTrace();
-        }
-        getLogger().info("======== HidePlayerJoinQuit ========");
+        Bukkit.getPluginManager().registerEvents(this, this);
     }
 
     @EventHandler
